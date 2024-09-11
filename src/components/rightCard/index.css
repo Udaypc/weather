@@ -1,0 +1,68 @@
+.rightCard{
+    height: 70%;
+    width: 20%;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.993);
+    opacity: 0.6;
+    
+    transition: all 0.5s linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightCard:hover{
+    transform: scale(1.09);
+    margin-left: 16px;
+    
+}
+.weatherIcon{
+    margin-left: 110px;
+    margin-top: 20px;
+    font-size: 60px;
+    color: #ffffff;
+}
+.mainHeading{
+    font-size: 30px;
+    text-align: center;
+    color: #ffffff;
+    font-family: Bree Serif;
+}
+.input{
+    height: 3vh;
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+    margin-left: 60px;
+    width: 50%;
+    border-bottom: solid;
+    border-color: #ffffff;
+    color: #ffffff;
+    padding: 5px;
+}
+.searchContainer{
+    display: flex;
+}
+.searchIcon{
+    font-size: 20px;
+    color: #ffffff;
+}
+.cityName{
+    color: #ffffff;
+    font-size: 18px;
+    font-family: Bree Serif;
+    text-align: center;
+}
+.hrLine{
+    width: 90%;
+    color: #ffffff;
+}
+.hrLine2{
+    width: 90%;
+    color: transparent;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    color: #ffffff;
+    font-size: 15px;
+}
