@@ -66,3 +66,16 @@
     color: #ffffff;
     font-size: 15px;
 }
+@media screen and (max-width:600px) {
+    .rightCard{
+        width: 70%;
+        height: 600px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .rightCard:hover{
+        transform: scale(1.09);
+        margin-top: 30px;
+        
+    }
+}
