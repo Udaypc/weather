@@ -1,6 +1,6 @@
 .bgContainer{
     background-image: url('https://wallpaperboat.com/wp-content/uploads/2022/03/14/81028/low-poly-mountain-23.jpg');
-    height: 120vh;
+    height: 100vh;
     background-size: cover;
     background-position: absolute;
     display: flex;
@@ -10,6 +10,7 @@
 @media screen and (max-width:600px) {
     .bgContainer{
         flex-direction: column;
+        height: 120vh;
     }
 }
 

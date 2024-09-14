@@ -76,6 +76,7 @@
     .rightCard:hover{
         transform: scale(1.09);
         margin-top: 30px;
+        margin-bottom: 40px;
         
     }
 }
